@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <string.h>
+
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netdb.h>
@@ -57,6 +61,6 @@ int main(int argc, char *argv[]) {
 
   printf("%s\n", buffer);
 
-  return 0
+  return 0;
 }
 
